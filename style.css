@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    font-family:'Roboto', sans-serif;
+    height: 2000px;
+}
+
+.custom-div-1{
+    width: 50px;
+    height: 50px;
+    background-color: #ff0000;
+}
+
+.custom-div-2{
+    width: 30px;
+    height: 30px;
+    background-color: #00ff00;
+    position: relative;
+    top5px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+
+}
+
+.custom-div-3{
+    width: 40px;
+    height: 40px;
+    background-color: #0000ff;
+    position: fixed;
+    top: 50px;
+    left: 70px;
+
+}
+
+.custom-div-4{
+    width: 20px;
+    height: 20px;
+    background-color: #fff000;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+}
+
+.custom-div-5{
+    width: 35px;
+    height: 35px;
+    background-color: #00ffff;
+    position: sticky;
+    top: 12px;
+    left: 10px;
+}
